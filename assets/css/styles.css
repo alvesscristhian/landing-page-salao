@@ -563,7 +563,6 @@ html {
 .footer-info p a {
     text-decoration: none;
     color: #ffcc66
-    ;
 }
 
 
@@ -582,7 +581,7 @@ html {
         text-align: center;
     }
     .main-name p {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .section-about {
         margin-bottom: 5rem;
@@ -636,7 +635,7 @@ html {
     }
 
     .nav-items {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         flex-direction: column;
         justify-content: center;
         gap: 4rem 0;
@@ -647,7 +646,7 @@ html {
     }
 
     .agendamento {
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
 
     .menu {
@@ -690,7 +689,7 @@ html {
         text-align: center;
     }
     .main-name p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
     .grid-gallery {
         grid-template-columns: repeat(2, 1fr);
@@ -732,7 +731,7 @@ html {
         text-align: center;
     }
     .main-name p, .section-about p, .section-services p, .section-parceiros p, .second-info p {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }   
 
     .grid-gallery {
@@ -754,6 +753,9 @@ html {
         max-height: 14rem;
         text-align: center;
         margin-bottom: 5rem;
+    }
+    .footer-info p {
+        font-size: 1.6rem;
     }
 }
 
