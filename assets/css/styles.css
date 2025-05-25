@@ -115,9 +115,6 @@ html {
 .brown-bg {
     background-color: var(--color-primary);
 }
-
-
-
 .background-salão {
     display: flex;
     align-items: center;
@@ -358,23 +355,6 @@ html {
     border-radius: 3rem;
 }
 
-.saiba-mais {
-    margin: 2rem 0;
-    font-size: 2rem;
-    font-family: var(--button-font);
-    font-weight: 400;
-    text-transform: uppercase;
-    color: var(--button-color);
-    border-color: var(--button-color);
-    padding: 1rem 2rem;
-    cursor: pointer;
-}
-.saiba-mais:hover {
-    background-color: var(--color-primary);
-    color: var(--color-white);
-    transition: all ease-in-out 300ms;
-}
-
 /*  ^
     | 
     | SECTION 4
@@ -550,21 +530,36 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 8rem;
 }
 
+.footer-info {
+    display: flex;
+    gap: 0 1rem
+}
+
+
 .footer-info p {
-    font-size: 1.8rem;
+    margin: 2rem 0;
+    font-size: 1.5rem;
     font-family: var(--font-menu);
     font-weight: 500;
+    color: #DDD;
+}
+
+.footer-info a {
+    text-decoration: none;
     color: var(--color-white);
 }
 
-.footer-info p a {
-    text-decoration: none;
-    color: #ffcc66
+.footer-info a:before {
+    content: '</';
+    color: var(--color-white)
 }
-
+.footer-info a:after {
+    content: '>';
+    color: var(--color-white)
+}
 
 /*  ^
     | 
@@ -703,7 +698,11 @@ html {
         grid-template-rows: 1fr;
     }
     .text-olenka {
-        padding: 0;
+        padding-bottom: 7rem;
+    }
+
+    .text-adlux {
+        padding: 7rem 0;
     }
     .saiba-mais {
         position: relative;
@@ -734,6 +733,10 @@ html {
         font-size: 1.6rem;
     }   
 
+    .section-about .bio {
+        margin-top: 2.5rem;
+    }
+
     .grid-gallery {
         grid-template-columns: 1fr;
     }
@@ -749,13 +752,34 @@ html {
         position: relative;
     }
 
+    .text-olenka {
+        padding-bottom: 5rem;
+    }
+
+    .text-adlux {
+        padding: 5rem 0;
+    }
+
     .contato, .horario, .localização {
         max-height: 14rem;
         text-align: center;
         margin-bottom: 5rem;
     }
     .footer-info p {
+        text-align: center;
         font-size: 1.6rem;
+    }
+    .first-info p {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    .second-info{
+        gap: 0 2rem;
+    }
+
+    .second-info img {
+        height: 5rem;
+        width: 5rem;
     }
 }
 
