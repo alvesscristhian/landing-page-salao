@@ -601,12 +601,14 @@ html {
         grid-template-rows: 1fr;
     }
     .text-olenka {
-        padding: 0;
+        padding-bottom: 5rem;
     }
+
     .saiba-mais {
         position: relative;
     }
     .text-adlux {
+        padding: 5rem 0;
         order: 2;
     }
     .painel-adlux {
@@ -697,13 +699,7 @@ html {
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
-    .text-olenka {
-        padding-bottom: 7rem;
-    }
-
-    .text-adlux {
-        padding: 7rem 0;
-    }
+    
     .saiba-mais {
         position: relative;
     }
@@ -753,11 +749,11 @@ html {
     }
 
     .text-olenka {
-        padding-bottom: 5rem;
+        padding-bottom: 4rem;
     }
 
     .text-adlux {
-        padding: 5rem 0;
+        padding: 4rem 0;
     }
 
     .contato, .horario, .localização {

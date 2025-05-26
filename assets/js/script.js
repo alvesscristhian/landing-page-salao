@@ -1,3 +1,4 @@
+const menuLinks = document.querySelectorAll('nav a');
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css';
@@ -15,4 +16,8 @@ document.getElementById("agendamento-btn").addEventListener("click", function ()
     window.open("https://wa.me/5513988588677?text=Ol%C3%A1%2C%20tudo%20bem%3F%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20no%20sal%C3%A3o.%20Poderia%20me%20informar%20os%20dias%20e%20hor%C3%A1rios%20dispon%C3%ADveis%2C%20por%20favor%3F", "_blank");
 });
 
-document.onclick=getElementById('close-menu').checked = false;
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        document.getElementById('close-menu').checked = false;
+    });
+});
