@@ -478,13 +478,14 @@ html {
     margin-bottom: 0.5rem;
 }
 
-.localização p, .localização p a {
+.localização p, .localização address a {
     font-family: var(--font-menu);
     color: var(--gray-color);
     font-size: 1.6rem;
 }
 
-.localização p a {
+.localização address a {
+    font-style: normal;
     text-decoration: none;
 }
 
